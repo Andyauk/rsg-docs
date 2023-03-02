@@ -25,6 +25,16 @@ Teleports you to the marked location on the map.&#x20;
 
 </details>
 
+<details>
+
+<summary>/noclip - toggle noclip on/off</summary>
+
+Toggles NOCLIP on/off
+
+**Permission level:** admin
+
+</details>
+
 # user commands
 
 <details>
