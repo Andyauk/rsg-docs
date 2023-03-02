@@ -13,4 +13,23 @@ Teleports you to either a player with the given `id` or to a given `x, y, z` loc
 * **z** - (optional) The z coordinate (required if using x for the first argument)
 
 </details>
- 
+
+<details>
+
+<summary>/tpm - teleport to a marked location</summary>
+
+Teleports you to the marked location on the map.&#x20;
+
+**Permission level:** admin
+
+</details>
+
+<details>
+
+<summary>/togglepvp - toggle PVP on server</summary>
+
+Toggles Player vs Player mode on the server
+
+**Permission level:** admin
+
+</details>
