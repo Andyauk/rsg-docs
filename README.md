@@ -1,5 +1,6 @@
 # commands
 
+# admin commands
 <details>
 
 <summary>/tp [id / x] [opt: y] [opt: z]- teleport to player or location</summary>
@@ -24,12 +25,14 @@ Teleports you to the marked location on the map.&#x20;
 
 </details>
 
+# user commands
+
 <details>
 
-<summary>/togglepvp - toggle PVP on server</summary>
+<summary>/pvp - toggle PVP for your character</summary>
 
-Toggles Player vs Player mode on the server
+Toggles Player vs Player mode on/off for your character
 
-**Permission level:** admin
+**Permission level:** user
 
 </details>
