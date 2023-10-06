@@ -11,3 +11,6 @@
 
 The easiest way to get started with a RSG server is to use the txAdmin recipe built into their platform! 
 To begin setting up your server you can refer to [windows-installation.md](guides/windows-installation.md "mention")
+
+## Guides
+- Script Optimization [script-optimization.md](guides/script-optimization.md "mention")
