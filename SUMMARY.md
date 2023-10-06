@@ -4,4 +4,5 @@
 * [Guides](guides/README.md)
   * [Script Optimization](guides/script-optimization.md)
   * [Windows Intallation](guides/windows-installation.md)
-* [Framework](framework.md)
+* [Framework](framework/README.md)
+  * [Commands](framework/commands.md)

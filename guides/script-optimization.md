@@ -2,7 +2,7 @@
 description: Learn how to write optimized code!
 ---
 
-# 🚀 Script Optimization
+# Script Optimization
 
 ### General Practices
 
@@ -86,8 +86,6 @@ local function someFunction(param1, param2, param3)
 end
 ```
 
-
-
 ### Native Usage
 
 * Always replace `GetPlayerPed(-1)` with `PlayerPedId()`
@@ -115,8 +113,6 @@ local function someFunction()
     end
 end
 ```
-
-
 
 ### Loops
 
@@ -185,14 +181,10 @@ local function exampleJobLoop()
 end
 ```
 
-
-
 ### Security
 
 * A surplus amount of security in a code is not a bad thing. Don't be afraid to add in multiple if checks or create random variables to pass through your events
 * Never do any type of transaction with the player regarding money or items on the client side of a resource
-
-
 
 ### Event Handlers
 
