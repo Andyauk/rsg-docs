@@ -175,7 +175,7 @@ end)
 
 ```lua
 local function exampleJobLoop()
-    local job = QBCore.Functions.GetPlayerData().job.name
+    local job = RSGCore.Functions.GetPlayerData().job.name
     CreateThread(function()
         while job == 'police' do
             print('im a policeman!')
@@ -207,28 +207,28 @@ local PlayerData = {}
 AddStateBagChangeHandler('isLoggedIn', nil, function(_, _, value) -- FiveM native method
     if value then
         isLoggedIn = true
-        PlayerData = QBCore.Functions.GetPlayerData()
+        PlayerData = RSGCore.Functions.GetPlayerData()
     else
         isLoggedIn = false
         PlayerData = {}
     end
 end)
 
-AddEventHandler('QBCore:Client:OnPlayerLoaded', function() -- Don't use this with the native method
+AddEventHandler('RSGCore:Client:OnPlayerLoaded', function() -- Don't use this with the native method
     isLoggedIn = true
-    PlayerData = QBCore.Functions.GetPlayerData()
+    PlayerData = RSGCore.Functions.GetPlayerData()
 end)
 
-RegisterNetEvent('QBCore:Client:OnPlayerUnload', function() -- Don't use this with the native method
+RegisterNetEvent('RSGCore:Client:OnPlayerUnload', function() -- Don't use this with the native method
     isLoggedIn = false
     PlayerData = {}
 end)
 
-RegisterNetEvent('QBCore:Client:OnJobUpdate', function(JobInfo)
+RegisterNetEvent('RSGCore:Client:OnJobUpdate', function(JobInfo)
     PlayerData.job = JobInfo
 end)
 
-RegisterNetEvent('QBCore:Player:SetPlayerData', function(val)
+RegisterNetEvent('RSGCore:Player:SetPlayerData', function(val)
     PlayerData = val
 end)
 ```
