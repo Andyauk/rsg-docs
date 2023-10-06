@@ -204,7 +204,7 @@ end
 local isLoggedIn = false
 local PlayerData = {}
 
-AddStateBagChangeHandler('isLoggedIn', nil, function(_, _, value) -- FiveM native method
+AddStateBagChangeHandler('isLoggedIn', nil, function(_, _, value) -- RedM native method
     if value then
         isLoggedIn = true
         PlayerData = RSGCore.Functions.GetPlayerData()
