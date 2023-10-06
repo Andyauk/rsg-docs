@@ -20,7 +20,7 @@ Goto [Keymaster](https://keymaster.fivem.net/) login and generate a key for late
    * create folder `C:\redm`
    * create folder `C:\redm\server-data`
    * create folder `C:\redm\server-files`
-5. Extract the filesfrom `server.7z` to `C:\redm\server-data`
+5. Extract the filesfrom `server.7z` to `C:\redm\server-files`
 6. Open the folder you just extracted it to. It should look a little like this:
 
 <div align="left">
