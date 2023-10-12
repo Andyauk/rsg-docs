@@ -20,7 +20,19 @@ Teleports you to either a player with the given `id` or to a given `x, y, z` loc
 
 <summary>/tpm - teleport to a marked location</summary>
 
-Teleports you to the marked location on the map.&#x20;
+Teleports you to the marked location on the map.
+
+**Permission level:** admin
+
+</details>
+
+<details>
+
+<details>
+
+<summary>/noclip - toggle noclip on/off</summary>
+
+Allows you to fly around the map.
 
 **Permission level:** admin
 
@@ -78,9 +90,19 @@ Closes the server for people without the correct permission. Kicks any players c
 
 <details>
 
-<summary>/car [model] - spawns a vehicle</summary>
+<summary>/wagon [model] - spawns a wagon</summary>
 
-Spawns a vehicle of the given `model` type.
+Spawns a wagon of the given `model` type.
+
+**Permission level:** admin
+
+</details>
+
+<details>
+
+<summary>/horse [model] - spawns a horse</summary>
+
+Spawns a horse of the given `model` type.
 
 **Permission level:** admin
 
@@ -186,24 +208,20 @@ Clears the inventory of a player with the given `id` or your own inventory if no
 
 <details>
 
-<summary>/ooc [message] - ooc chat command</summary>
+<summary>/id - will notify of your server ID</summary>
 
-Sends an out-of-character (ooc) message to the chat.
+Notify you of your server ID
 
 **Permission level:** user
-
-* **message** - (required) The message to send
 
 </details>
 
 <details>
 
-<summary>/me [message] - shows a message above your head</summary>
+<summary>/cid - will notify of your citizen ID</summary>
 
-Shows a 3d text message above your head. Useful for enhancing roleplay.
+Notify you of your citizen ID
 
 **Permission level:** user
-
-* **message** - (required) The message to display
 
 </details>
