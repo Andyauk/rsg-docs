@@ -10,3 +10,4 @@
   * [Server Events](framework/server-event-reference.md)
   * [Server Functions](framework/server-function-reference.md)
   * [Commands](framework/commands.md)
+  * [Locale Functions](framework/locale-function-reference.md)
