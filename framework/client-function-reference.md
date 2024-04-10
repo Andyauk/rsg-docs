@@ -2,7 +2,7 @@
 description: Learn about and how to use common core client functions!
 ---
 
-# Client Function Reference
+# Client Functions
 
 ### RSGCore.Functions.GetPlayerData
 
@@ -103,7 +103,7 @@ print(RSGCore.Debug(vehicles))
 
 ```lua
 exports('GetCoreObject', function()
-    return QBCore
+    return RSGCore
 end)
 
 -- Example
@@ -302,7 +302,7 @@ local closestPlayer, distance = RSGCore.Functions.GetClosestPlayer(coords)
 print(closestPlayer, distance)
 ```
 
-### QBCore.Functions.GetPlayersFromCoords
+### RSGCore.Functions.GetPlayersFromCoords
 
 * Returns all players within a radius of specific coordinates
 
