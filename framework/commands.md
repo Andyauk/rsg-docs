@@ -206,6 +206,44 @@ Clears the inventory of a player with the given `id` or your own inventory if no
 
 </details>
 
+
+<details>
+
+<summary>/giveitem [id] [item] [amount]- give items a players inventory</summary>
+
+Give An Item to player
+
+**Permission level:** admin
+
+* **id** - The id of a player
+* **item** - The itenm of shared/items.lua
+* **amount** - (optional) The amount item recive of a player
+
+</details>
+
+<details>
+
+<summary>/randomitems - give random items a players inventory</summary>
+
+Give Random Items
+
+**Permission level:** god
+
+</details>
+
+<details>
+
+<summary>/resetinv [type] [id] - reset Inventory</summary>
+
+Reset the inventory of type and id/plate (ID of stash or license plate)
+
+* **type** - The type of stash / trunk / glovebox
+* **id** - The id of stash or license plate
+
+**Permission level:** admin
+
+</details>
+
 <details>
 
 <summary>/id - will notify of your server ID</summary>
@@ -221,6 +259,65 @@ Notify you of your server ID
 <summary>/cid - will notify of your citizen ID</summary>
 
 Notify you of your citizen ID
+
+**Permission level:** user
+
+</details>
+
+<details>
+
+<summary>/rob - rob Player</summary>
+
+Stealing between players, when the target has his hands raised
+
+**Permission level:** user
+
+</details>
+
+<details>
+<summary>/loadskin - Refresh Skin</summary>
+
+Refresh Skin player
+
+**Permission level:** user
+
+</details>
+
+<details>
+
+<summary>/customweapon - Custom Skin wepaon</summary>
+
+Access to the menu of components, materials and engravings
+
+**Permission level:** admin
+
+</details>
+
+<details>
+
+<summary>/w_inspect - Opens the inpect Weapon</summary>
+
+Access to the info of weapon
+
+**Permission level:** admin
+
+</details>
+
+<details>
+
+<summary>/loadweapon - Refresh Skin wepaon player</summary>
+
+Refresh Skin wepaon player
+
+**Permission level:** user
+
+</details>
+
+<details>
+
+<summary>/addressbook', Player Addressbookr</summary>
+
+Access to Personal Addressbook
 
 **Permission level:** user
 
